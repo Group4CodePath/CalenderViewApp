@@ -59,9 +59,52 @@ Schema
 [This section will be completed in Unit 9]
 
 Models
-[Add table of models]
+
+Property	   /  Type	      /       Description
+
+
+userId	   /    String	    /       Username/email for account to login their calendar
+
+
+title	     /    String      /    Name of event
+
+
+description	 /  String	     /     Description of event by user
+
+
+createdAt   / 	 DateTime	     /    Date/time event was created
+
+
+updatedAt  /	   DateTime	     /    Date/time event is updated
+
+
+startDate	  /   DateTime	    /     When event begins
+
+
+endDate	    /   DateTime	    /     When event ends
+
+
+delteItem	 /    DateTime	    /     Item is cleared off of to-do list and calendar
+
+[Schema Models.pdf](https://github.com/Group4CodePath/CalenderViewApp/files/7410378/Schema.Models.pdf)
+
+
+
 
 Networking
-[Add list of network requests by screen ]
-[Create basic snippets for each Parse network request]
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+
+•	Home Feed Screen
+   o	(Read/GET) Log in or sign up user
+   
+•	Calendar Screen
+   o	(Read/GET) View each month of the calendar
+   
+•	To-do List Screen
+   o	(Read/GET) View existing events and information created and entered by user for the specific day the user selected
+   o	(Update/PUT) Mark events as complete 
+   o	(Delete) Clear existing events
+   
+•	Add Screen
+   o	(Create/POST) Create a new event for users to post on to-do list
+   o	(Update/PUT) Update information for existing events 
+
