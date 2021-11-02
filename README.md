@@ -107,4 +107,11 @@ Networking
 •	Add Screen
    o	(Create/POST) Create a new event for users to post on to-do list
    o	(Update/PUT) Update information for existing events 
+   
+   
+   GIF 
+   
+   ![CalendarPart1](https://user-images.githubusercontent.com/81546865/139946315-1aa947a2-0c13-41d7-8765-15f9c23f7d90.gif)'
+   
+
 
